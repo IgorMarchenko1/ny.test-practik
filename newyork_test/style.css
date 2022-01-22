@@ -1,0 +1,130 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    padding: 50px 0;
+    background: url('/images/newyork_blur.jpg') 50%/cover no-repeat scroll
+}
+
+.container {
+    max-width: 1200px;
+    background: url('/images/newyork_blur_1.jpg') 50%/cover no-repeat fixed;
+    color: white;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.container>h1,
+.container>h3 {
+    text-transform: uppercase;
+    background: rgba(0, 0, 0, .7);
+    letter-spacing: 3px;
+    max-width: 400px;
+    margin: 15px auto;
+}
+
+.container>h1 {
+    margin: 0 auto;
+}
+
+.photo {
+    max-width: 600px;
+    height: 400px;
+    background: url('/images/newyork.jpg') 50%/cover no-repeat;
+    border: 10px solid #fff;
+    margin: 0 auto;
+}
+
+.metro {
+    margin: 30px auto;
+    min-width: 800px;
+    display: flex;
+    justify-content: center;
+    display: wrap;
+}
+
+.metro__photo {
+    margin: 0 10px 0 0;
+    width: 400px;
+    height: 300px;
+    background: url('/images/metro.png') 50%/cover no-repeat;
+}
+
+.metro__about {
+    text-align: left;
+    width: 400px;
+    background: rgba(0, 0, 0, .4);
+    padding: 1rem;
+}
+
+.metro__about>p {
+    margin: 0;
+}
+
+.look {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.look__photo_1 {
+    width: 350px;
+    height: 250px;
+    background: url('/images/building_1.jpg') 50%/cover no-repeat;
+    margin: 10px;
+}
+
+.look__photo_2 {
+    width: 350px;
+    height: 250px;
+    background: url('/images/building_2.jpg') 50%/cover no-repeat;
+    margin: 10px;
+}
+
+.look__photo_3 {
+    width: 350px;
+    height: 250px;
+    background: url('/images/building_3.jpg') 50%/cover no-repeat;
+    margin: 10px;
+}
+
+.look__photo_4 {
+    width: 350px;
+    height: 250px;
+    background: url('/images/building_4.jpg') 50%/cover no-repeat;
+    margin: 10px;
+}
+
+.look__photo_5 {
+    width: 350px;
+    height: 250px;
+    background: url('/images/building_5.jpg') 50%/cover no-repeat;
+    margin: 10px;
+}
+
+.look__photo_6 {
+    width: 350px;
+    height: 250px;
+    background: url('/images/building_6.jpg') 50%/cover no-repeat;
+    margin: 10px;
+}
+
+.button {
+    width: 200px;
+    height: 35px;
+    background-color: rgb(189, 179, 90);
+    margin: 0 auto;
+    line-height: 35px;
+}
+
+.button:hover {
+    cursor: pointer;
+    opacity: 70%;
+}
